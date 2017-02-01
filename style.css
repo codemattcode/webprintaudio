@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
-
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto|Droid+Serif');
 /*
 
 #FEFEFE
@@ -17,7 +16,11 @@ body {
   text-rendering: optimizeLegibility;
 }
 p {
-  font: 400 1.25em/1.5 'lato', sans-serif;
+  /*font: 400 1.25em/1.5 'lato', sans-serif;*/
+  font-size: 22px;
+	font-weight: 400;
+	line-height: 1.6;
+	font-family: 'Droid Serif', serif;
 }
 a {
   color: #ff3333;
